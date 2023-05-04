@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#about-me">Tentang Saya</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+
+    <main>
+        <section id="about-me" class="about-me">
+            <div class="profile-container">
+              <img src="foto-profil.jpg" alt="Foto Profil" class="profile-image">
+              <div class="shape">
+                <h2>Tentang Saya</h2>
+                <p>Nama saya adalah Andy Huang Wijaya. Saat ini, saya kuliah di UIN Suska Riau dan telah mencapai semester 6. Saya mengambil jurusan Teknik Informatika di Fakultas Sains dan Teknologi. Selain itu, saya sedang belajar sebagai cohort Bangkit 2023. Saya memiliki semangat yang tinggi untuk belajar dan mencoba hal-hal baru di dunia teknologi. Saya yakin bahwa dengan kegigihan dan tekad yang kuat, saya dapat mencapai impian saya dan memberikan kontribusi yang bermanfaat bagi masyarakat.</p>
+                <div class="social-icons">
+                  <a href="https://wa.me/6289668001000/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                  <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://www.github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          
+          
+          <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="project-container">
+              <div class="project">
+                <div class="shape">
+                  <img src="project1.jpg" alt="Project 1">
+                  <div class="project-details">
+                    <h3>Project Perkenalan Kota Pekanbaru</h3>
+                    <p>Projek ini saya kerjakan saat saya mengkuti bangkit yakni pada kelas pemograman web dasar</p>
+                    <a href="https://github.com/ndyyy14/kotapku.git" target="_blank">Lihat detail</a>
+                  </div>
+                </div>
+              </div>
+              <div class="project">
+                <div class="shape">
+                  <img src="project2.jpg" alt="Project 2">
+                  <div class="project-details">
+                    <h3>Project API Back-End</h3>
+                    <p>Projek ini saya kerjakan saat saya mengikuti kelas "Belajar Membuat Aplikasi Back-End untuk Pemula dengan Google Cloud"</p>
+                    <a href="https://github.com/ndyyy14/BackEnd_API.git" target="_blank">Lihat detail</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+      <section id="contact" class="contact">
+        <div class="shape">
+          <h2>Kontak Saya</h2>
+          <form action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Nama Lengkap</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Kirim</button>
+          </form>
+        </div>
+      </section>
+          
+    </main>
+
+    <footer>
+      <p>Andy Huang Wijaya&copy; 2023 Bangkit</p>
+    </footer>
+  </body>
+</html>
